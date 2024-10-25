@@ -1,8 +1,12 @@
 {
-  "name": "currency-symbol",
+  "name": "easy-currency-symbol",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moonrailgun/currency-symbol.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "tsc",
