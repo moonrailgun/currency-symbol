@@ -7,8 +7,11 @@
     "build": "tsc",
     "prepare": "tsc",
     "test": "vitest",
-    "release": "pnpm publish --registry=https://registry.npmjs.com/"
+    "release": "npm publish --registry=https://registry.npmjs.com/"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
